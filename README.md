@@ -91,9 +91,12 @@ Além disso, como estou usando a AWS academy é necessário passar o token de ac
 
 1. Instância do EC2 na AWS:
 
+Entrando no [console ec2](https://us-west-2.console.aws.amazon.com/ec2/home?region=us-west-2#Instances:sort=instanceId) é possivel acompanhar a instancia criada pelo Terraform
+
 ![Instancia EC2](./Asset/instancia_ec2.png)
 
-Entrando no [console ec2](https://us-west-2.console.aws.amazon.com/ec2/home?region=us-west-2#Instances:sort=instanceId) é possivel acompanhar a instancia criada pelo Terraform
+![Instancia EC2](./Asset/inst_ec2_details.png)
+
 
 2. Inspecionar estado do ambiente Terraform:
 
@@ -102,3 +105,4 @@ Entrando no [console ec2](https://us-west-2.console.aws.amazon.com/ec2/home?regi
 ```
 
 ![Comandos](./Asset/tr_show.png)
+
